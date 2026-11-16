@@ -13,6 +13,7 @@ import PostForm from "./Post-form/PostForm";
 import PostCard from "./PostCard";
 import AuthLayout from "./AuthLayout";
 import Input from "./Input";
+import PostForm from "./Post-form/PostForm.jsx";
 export {
     Header,
     Footer,
@@ -28,4 +29,5 @@ export {
     AuthLayout, 
     Input,
     Select,
+    PostForm
 }
