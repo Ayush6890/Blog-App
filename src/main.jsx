@@ -65,7 +65,11 @@ const router = createBrowserRouter([
       { path: "/post/:slug", element: <Post /> },
     ],
   },
-])
+],
+ {
+    basename: import.meta.env.BASE_URL,
+  }
+)
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
